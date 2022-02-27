@@ -1,3 +1,7 @@
 require: rubocop-rails
 AllCops:
   NewCops: enable
+  Exclude:
+    - 'bin/*'
+    - 'db/schema.rb'
+    - 'db/migrate/20220226232051_devise_create_users.rb'
